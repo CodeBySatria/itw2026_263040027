@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Press+Start+2P&display=swap');
+        
+            @font-face {
+                font-family: "lobster";
+                src: url("fonts/georgia.ttf")
+                format("true-type");
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+                }
+            
+            h1 {
+                color: crimson;
+                font-size: 60px;
+                text-align: center;
+                font-family: "Press Start 2P", cursive;
+                font-weight: 300;
+                }
+
+            p {
+                color: navy;
+                text-align: center;
+                font-size: 30px;
+                font-family: "Micro 5 Charted";
+                }
+            
+            .font-lobster {
+                font-family: "lobster,arial,sans-serif";
+                }
+        </style>
+
+</head>
+
+<p>
+
+    <h1>Hello World</h1>
+
+    <p>
+        lorem20 ipsum dolor sit amet consectetur adipisicing elit. Laborum recusandae reiciendis officia culpa inventore
+        nulla id consequuntur perferendis sapiente officiis!
+    </p>
+
+    <p class="font-lobster">
+        lorem20 ipsum dolor sit amet consectetur adipisicing elit. Laborum recusandae reiciendis officia culpa inventore
+        nulla id consequuntur perferendis sapiente officiis!
+    </p>
+
+</body>
+
+</html>
