@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coba Background</title>
     <style>
+        body {
+            background-color: lightblue;
+            background-image: linear-gradient(to right, lightgreen, lightblue);
+            height: 100vh;
+        }
 
-      .body {
-        background-color: rgb(227, 170, 12);
-        background-image: linear-gradient(to right top, rgb(1, 124, 165) 200px, rgb(142, 19, 19));
-        height: 100vh;
-      }
+        .kotak1 {
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            background-image: linear-gradient(to bottom, lightblue, salmon);
+        }
 
-      .kotak{
-        width: 300px;
-        height: 300px;
-        background-color: salmon;
-        background-image: linear-gradient(to right top, rgb(165, 1, 61) 200px, rgb(11, 255, 39));
-      }
-      
-      .kotak2{
-        width: 300px;
-        height: 300px;
-        background-color: salmon;
-        background-image: radial-gradient(to right top, rgb(165, 1, 61) 200px, rgb(11, 255, 39));
-      }
+        .kotak2 {
+            width: 300px;
+            height: 300px;
+            background-color: salmon;
+            background-image: radial-gradient(red, blue);
+        }
 
-      .kotak3{
-        width: 300px;
-        height: 300px;
-        background-color: salmon;
-        background-image: conic-gradient(to right top, rgb(165, 1, 61) 200px, rgb(11, 255, 39));
-      }
+        .kotak3 {
+            width: 300px;
+            height: 300px;
+            background-color: salmon;
+            background-image: conic-gradient(red, blue, green);
+        }
     </style>
-  </head>
-  <body>
-    <div class="kotak"></div>
+</head>
+<body>
+    <div class="kotak1"></div>
     <div class="kotak2"></div>
     <div class="kotak3"></div>
-  </body>
+</body>
 </html>
